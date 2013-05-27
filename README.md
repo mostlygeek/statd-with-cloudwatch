@@ -8,7 +8,7 @@ It listens on `127.0.0.1` for StatsD UDP messages and sends them off to CloudWat
 
 ## Running It
 
-    node start-statsd.js default-config.js
+    > start-server default-config.js
 
 ## CloudWatch Backend 
 
