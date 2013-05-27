@@ -13,7 +13,6 @@
   "version": "0.0.1",
   "dependencies": {
     "statsd" : "0.6.0",
-    "node-statsd": "0.0.7",
     "statsd-backend-raw": "git://github.com/mostlygeek/statsd-backend-raw.git",
     "statsd-backend-cloudwatch": "git://github.com/mostlygeek/statsd-backend-cloudwatch.git"
   },
