@@ -1,0 +1,25 @@
+{
+  "name": "statsd-cloudwatch",
+  "description": "statsd with cloudwatch backbend",
+  "author": "Etsy",
+  "scripts": {
+    "test": "./run_tests.sh",
+    "start": "node stats.js config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/etsy/statsd.git"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "statsd" : "0.6.0",
+    "node-statsd": "0.0.7",
+    "statsd-backend-raw": "git://github.com/mostlygeek/statsd-backend-raw.git",
+    "statsd-backend-cloudwatch": "git://github.com/mostlygeek/statsd-backend-cloudwatch.git"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node" : ">=0.8"
+  }
+}
