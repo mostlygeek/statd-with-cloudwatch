@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/etsy/statsd.git"
   },
-  "version": "0.0.1",
+  "version": "1.0.0",
   "dependencies": {
     "statsd" : "0.6.0",
     "statsd-backend-raw": "git://github.com/mostlygeek/statsd-backend-raw.git",

@@ -8,11 +8,11 @@
     // "statsd-backend-raw", /* uncomment to see raw output dumped to the console */
     "statsd-backend-cloudwatch" 
 ]
-, flushInterval : 30000 /* 30 seconds */
+, flushInterval : 3000 /* 30 seconds */
 
-  cloudwatch: {
+, cloudwatch: {
       namespace : "MozIDP",
       region    : "__AUTO",
-      creds     : "__AUTO"
+      creds     : "IAM"
   }
 };
