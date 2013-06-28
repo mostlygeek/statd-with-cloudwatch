@@ -1,6 +1,6 @@
 # About StatD w/ CloudWatch
 
-This is the statsd server for [Mozilla-IDP][https://github.com/mozilla/vinz-clortho] project, 
+This is the statsd server for [Mozilla-IDP](https://github.com/mozilla/vinz-clortho) project, 
 with the CloudWatch backend as a dependency. No need to install the backend 
 as a global library. 
 
